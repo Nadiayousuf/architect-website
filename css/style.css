@@ -1,0 +1,243 @@
+
+/* common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 1190px;
+    margin: auto;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+}
+.btn{
+    background-color:#FF900E ;
+    padding: 21px 24px;
+    border-radius: 8%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+}
+
+/* common css ends  */
+
+ /* nav section start  */
+  #header {
+    margin-top: 69px;
+    background-color:rgba(249, 221, 188, 0.1);
+  }
+ #header .row{
+    justify-content: space-between;
+    align-items: center;
+ }
+ #header .logo{
+    font-size: 45px;
+    font-weight: 800;
+    color: #131313;
+ }
+  #header .menu ul li a{
+    padding: 26px;
+    font-size: 18px;
+    color: #424242;
+    line-height: 26px;
+  }
+ /* nav section ends */
+
+ /* banner section start  */
+ .banner_content{
+    padding: 116px;
+    text-align: center;
+ }
+  .banner_content h1{
+    font-size: 64px;
+    font-weight: 800;
+    color: #131313;
+  }
+   .banner_content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 32px;
+   }
+   
+ .banner_image img{
+    width: 100%;
+    margin-top: 50px;
+   
+    
+   
+ }
+   
+   
+
+ 
+ /* banner section ends */
+#features {
+    padding: 104px;
+    
+}
+ #features .features_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+#features .features_content h4{
+    font-size: 45px;
+    font-weight: 800;
+    color: #131313;
+    margin-bottom: 24px;
+}
+#features .features_content .quick_list {
+    font-weight: 600;
+    color: #727272;
+}
+#features .features_p .features_h{
+    font-weight: 800;
+    color: #FF900E;
+}
+#features .features_p p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 32px;
+}
+/* #features .features_image img{
+    gap: 20px;
+} */
+/* experience section start  */
+
+#experience {
+    padding:130px ;
+}
+
+#experience .experience_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+
+
+}
+#experience .experience_c h5{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+}
+#experience .experience_c p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 30px;
+     line-height: 26px;
+
+}
+
+#experience .experience_card h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+}
+#experience .experience_card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 26px;
+}
+#experience .experience_card {
+    box-shadow:0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+ }
+#experience .experience_image{
+    width: 50%;
+    height: 100%;
+}
+/* experience section ends */
+
+/* fact section start  */
+
+#fact {
+    padding: 130px;
+}
+#fact .some_fact{
+    text-align:left
+    
+}
+#fact .some_fact h5{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+}
+#fact .some_fact p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 100px;
+}
+#fact .fact_title{
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-evenly;
+}
+#fact .fact_title .fact_card{
+   border:  1px solid #FF900E;
+   width: 240px;
+   height: 240px;
+   border-radius: 8%;
+   text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+/* sponsor section start  */
+
+#sponsors {
+    padding: 130px 216px;
+}
+#sponsors .sponsors_info{
+    text-align: center;
+}
+#sponsors .sponsors_info h5{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+}
+#sponsors .sponsors_info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 68px;
+}
+#sponsors .sponsor_logo{
+    justify-content: space-evenly;
+    margin-bottom: 130px;
+    filter: grayscale(100%);
+}
+#sponsors .copyright{
+    background-color: rgba(255, 244, 231, 1);
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+/* sponsor section ends */
+
+/* fact section ends */
